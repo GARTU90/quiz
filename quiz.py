@@ -6,12 +6,12 @@
 
 def validate_true_false(text):
 	text=text.lower()
-	if text=="hamburguesas" or text=="burritos" or text=="tacos" or "aguachile":
+	if text=="hamburguesas" or text=="burritos" or text=="tacos" or text=="aguachile":
 		return True
 	else:
 		return False
 
-answer= False
+answer=False
 while not answer:
 	print("cual es mi comida favorita?")
 	print("hamburguesas")
